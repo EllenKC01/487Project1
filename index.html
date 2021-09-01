@@ -6,14 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./icons.css">
     <title>Project1</title>
 </head>
 <body>
     <div class="container-fluid bg-primary header">
         <h1>Top</h1>
     </div>
-    <div class="container-fluid bg-secondary navbar">
-        <h2>Navbar</h2>
+    <div class="container-fluid bg-secondary navbar nav">
+        <!-- change navbar bg color to the dark blue so it looks seamless -->
+        <div class="row mx-auto">
+            <!-- sprites are links that go to # -->
+            <!-- for hovers- css change class when rollover parent -->
+            <div class="sprite sprite-Blue-dashboard"></div>
+            <div class="sprite sprite-Blue-people"></div>
+            <div class="sprite sprite-Blue-comment"></div>
+            <div class="sprite sprite-Blue-tag"></div>
+            <div class="sprite sprite-Blue-note"></div>
+            <div class="sprite sprite-Blue-graph"></div>
+        </div>
+        <!-- <img class="img-fluid img-responsive nav-bg" src="./images/NavbarBackground.png" alt="background"> -->
     </div>
     <div class="container bg-success dashboard">
         <h3>Dashboard</h3>

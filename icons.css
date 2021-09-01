@@ -1,0 +1,78 @@
+.sprite {
+  background-image: url(spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+  margin: 9px;
+}
+
+.sprite-Blue-comment {
+  width: 88px;
+  height: 73px;
+  background-position: -5px -5px;
+}
+
+.sprite-Blue-dashboard {
+  width: 84px;
+  height: 73px;
+  background-position: -103px -5px;
+}
+
+.sprite-Blue-graph {
+  width: 87px;
+  height: 73px;
+  background-position: -197px -5px;
+}
+
+.sprite-Blue-note {
+  width: 89px;
+  height: 73px;
+  background-position: -5px -88px;
+}
+
+.sprite-Blue-people {
+  width: 94px;
+  height: 73px;
+  background-position: -104px -88px;
+}
+
+.sprite-Blue-tag {
+  width: 87px;
+  height: 73px;
+  background-position: -208px -88px;
+}
+
+.sprite-Green-comment {
+  width: 88px;
+  height: 73px;
+  background-position: -5px -171px;
+}
+
+.sprite-Green-dashboard {
+  width: 84px;
+  height: 73px;
+  background-position: -103px -171px;
+}
+
+.sprite-Green-graph {
+  width: 87px;
+  height: 73px;
+  background-position: -197px -171px;
+}
+
+.sprite-Green-note {
+  width: 89px;
+  height: 73px;
+  background-position: -294px -5px;
+}
+
+.sprite-Green-people {
+  width: 94px;
+  height: 73px;
+  background-position: -305px -88px;
+}
+
+.sprite-Green-tag {
+  width: 87px;
+  height: 73px;
+  background-position: -294px -171px;
+}
