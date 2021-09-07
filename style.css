@@ -14,14 +14,61 @@ h3 {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
+i {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
+form {
+  background-color: white;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+hr {
+  margin: 5px;
+}
+
+.raleigh {
+  padding-right: 10px;
+}
+
+.header {
+  padding: 10px;
+}
+
+.social {
+  margin-left: 10vw;
+}
+
+.help {
+  margin-right: 10vw;
+}
+
+.fa-cog:hover {
+  color: #cccccc;
+}
+
+.fa-question-circle:hover {
+  color: #cccccc;
+}
+
 .navbar {
   padding: 0;
   /* position: relative; */
 }
 
 .nav {
-  padding: 20px;
-  background-image: url(./images/NavbarBackground.png);
+  padding: 0;
+  background-image: url(./images/NavBackground.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -34,11 +81,41 @@ h3 {
 .dashboard {
   margin-top: 15px;
   margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.form {
+  border-radius: 5px;
+}
+
+.fa-search {
+  color: #2498f4;
+  margin: 0;
+  padding-right: 5px;
+  padding-top: 5px;
+  float: right;
+}
+
+.fa-search:hover {
+  text-decoration: none;
+  color: #cccccc;
+}
+
+.fa-search:active {
+  text-decoration: none;
+  color: #cccccc;
+}
+
+.move {
+  padding: 0;
+  margin: 0;
 }
 
 .data {
-  padding: 10px;
+  padding: 15px;
   margin-bottom: 35px;
+  border-radius: 10px;
 }
 
 .inside {
@@ -46,16 +123,239 @@ h3 {
   margin-right: 0;
 }
 
+.announcements {
+  font-size: 9pt;
+}
+
+.announce-text {
+  color: #fe7f13;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mid-text {
+  color: #7777777;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 0;
+}
+
+.nav-arrows {
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.fa-chevron-circle-left {
+  color: #fe7f13;
+  margin: 0;
+}
+
+.fa-chevron-circle-right {
+  color: #fe7f13;
+  margin: 0;
+}
+
+.fa-chevron-circle-left:hover {
+  color: #cccccc;
+}
+
+.fa-chevron-circle-right:hover {
+  color: #cccccc;
+}
+
 .t-r {
   padding: 0;
+}
+
+.tasks-set {
+  margin-bottom: 15px;
+}
+
+.tasks {
+  margin: 5px;
+}
+
+.settings {
+  margin: 5px;
+}
+
+.settings2 {
+  float: right;
+}
+
+.number {
+  background-color: #32cc66;
+  border-radius: 50px;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  color: white;
+  margin: 5px;
+}
+
+.listing:hover .number {
+  background-color: #cccccc;
+}
+
+.listing:hover .title {
+  color: #cccccc;
+}
+
+.title {
+  margin: 0;
+  padding-top: 5px;
+  padding-left: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+}
+
+.rec {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.an-head {
+  margin: 20px;
 }
 
 .analytics {
   padding: 0;
 }
 
+.activity {
+  padding-left: 3vw;
+}
+
+/* Dropdown css from W3Schools */
+/* Dropdown Button */
+.dropbtn {
+  background-color: white;
+  color: #999999;
+  padding: 5px;
+  font-size: 10px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
+  margin-bottom: 5px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #cccccc;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #cccccc;
+}
+
+.active-date {
+  padding-right: 10px;
+  padding-top: 3px;
+}
+
+.fa-chevron-down {
+  color: #fe7f13;
+  float: left;
+  padding: 5px;
+}
+
+.graph1 {
+  width: 40vw;
+  height: auto;
+  margin: 10px;
+}
+
+.graph2 {
+  width: 12vw;
+  height: auto;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
 .ads {
   margin: 0;
   width: 100%;
-  padding: 10px;
+  padding: 0;
+}
+
+.watch-what {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 15px;
+  padding-left: 25px;
+}
+
+.ad1 {
+  background-image: url(./images/images/watchwhat.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 160px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.see-what {
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.ad2 {
+  background-image: url(./images/images/images/seewhat.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 171px;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.version {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  padding-right: 25px;
+}
+
+.ad3 {
+  background-image: url(./images/images/images/version2.0.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 160px;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
 }

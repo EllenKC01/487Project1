@@ -7,48 +7,178 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./icons.css">
+    <script src="https://kit.fontawesome.com/4a865f270a.js" crossorigin="anonymous"></script>
     <title>Project1</title>
 </head>
+
+<!-- make box corners rounded -->
+<!-- override colors and fonts -->
 <body>
-    <div class="container-fluid bg-primary header">
-        <h1>Top</h1>
+    <div class="container-fluid bg-primary header text-white">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="social">
+                    <p>Social Stream</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row flex-row-reverse help">
+                    <i class="fas fa-cog"></i>
+                    <!-- make dividing borders dark blue -->
+                    <i class="far fa-question-circle border-left border-right"></i>
+                    <p class="raleigh">MINI of Raleigh</p>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="container-fluid bg-secondary navbar nav">
-        <!-- change navbar bg color to the dark blue so it looks seamless -->
         <div class="row mx-auto">
-            <!-- sprites are links that go to # -->
             <!-- for hovers- css change class when rollover parent -->
-            <div class="sprite sprite-Blue-dashboard"></div>
-            <div class="sprite sprite-Blue-people"></div>
-            <div class="sprite sprite-Blue-comment"></div>
-            <div class="sprite sprite-Blue-tag"></div>
-            <div class="sprite sprite-Blue-note"></div>
-            <div class="sprite sprite-Blue-graph"></div>
+            <a class="sprite sprite-blue-dashboard" href="#"></a>
+            <a class="sprite sprite-blue-people" href="#"></a>
+            <a class="sprite sprite-blue-comment" href="#"></a>
+            <a class="sprite sprite-blue-tag" href="#"></a>
+            <a class="sprite sprite-blue-note" href="#"></a>
+            <a class="sprite sprite-blue-graph" href="#"></a>
         </div>
         <!-- <img class="img-fluid img-responsive nav-bg" src="./images/NavbarBackground.png" alt="background"> -->
     </div>
     <div class="container bg-success dashboard text-white">
-        <h3>Dashboard</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <h3>Dashboard</h3>
+            </div>
+            <div class="col-md-4 form">
+                <form action="#">
+                    <input type="text">
+                    <a href="#" class="fas fa-search"></a>
+                    <!-- <i class="fas fa-search"></i> -->
+                </form>
+            </div>
+        </div>
     </div>
     <!-- import Sass files for gradient/shadows (bg-gradient-secondary)-->
     <div class="container bg-light data">
-        <p>Data</p>
-        <div class="container">
-            <div class="container bg-white border">
-                <p>Announcements</p>
-            </div>
-            <div class="row bg-white inside">
-                <div class="col-md-4 border container t-r">
-                    <div class="container border-bottom tasks">
-                        <h3>Tasks</h3>
+        <div class="contents">
+            <div class="announcements container bg-white border">
+                <div class="row">
+                    <div class="col-md-2 border-right">
+                        <p class="announce-text">ANNOUNCEMENTS</p>
                     </div>
-                    <div class="container recommendations">
-                        <h3>Recommendations</h3>
+                    <div class="col-md-9 mid-text">
+                        <p>Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
+                    </div>
+                    <div class="col-md-1 border-left move">
+                        <div class="nav-arrows">
+                            <i class="fas fa-chevron-circle-left"></i>
+                            <i class="fas fa-chevron-circle-right"></i>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-8 container border analytics">
+            </div>
+            <div class="row bg-white inside">
+                <div class="col-md-4 border-left container t-r">
+                    <div class="border-bottom tasks">
+                        <div class="row tasks-set">
+                            <div class="col-md-9 tasks">
+                                <h3 class="text-primary">Tasks</h3>
+                            </div>
+                            <div class="col-md-2 settings text-primary">
+                                <i class="fas fa-cog settings2"></i>
+                            </div>
+                        </div>
+                        <div class="row listing">
+                            <div class="col-md-2">
+                                <div class="number">
+                                    <p>1</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 title">
+                                <p>Welcome Contacts</p>
+                            </div>
+                            <div class="col-md-4"></div>
+                        </div>
+                        <hr>
+                        <div class="row listing">
+                            <div class="col-md-2">
+                                <div class="number">
+                                    <p>2</p>
+                                </div>
+                            </div>
+                            <div class="col-md-7 title">
+                                <p>Provide Responses</p>
+                            </div>
+                            <div class="col-md-4"></div>
+                        </div>
+                        <hr>
+                        <div class="row listing">
+                            <div class="col-md-2">
+                                <div class="number">
+                                    <p>3</p>
+                                </div>
+                            </div>
+                            <div class="col-md-7 title">
+                                <p>Review Activity</p>
+                            </div>
+                            <div class="col-md-4"></div>
+                        </div>
+                        <hr>
+                        <div class="row listing">
+                            <div class="col-md-2">
+                                <div class="number">
+                                    <p>4</p>
+                                </div>
+                            </div>
+                            <div class="col-md-7 title">
+                                <p>Reach Out</p>
+                            </div>
+                            <div class="col-md-4"></div>
+                        </div>
+                    </div>
+                    <div class="container recommendations">
+                        <div class="rec">
+                            <h3 class="text-primary">Recommendations</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2">
+                            </div>
+                            <div class="col-md-10"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 container border-left border-right analytics">
                     <div class="container border-bottom graphs">
-                        <h3>Analytics</h3>
+                        <h3 class="text-primary an-head">Analytics</h3>
+                        <div class="row">
+                            <div class="col-md-9">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p class="text-secondary activity">ACTIVITY</p>
+                                    </div>
+                                    <div class="col-md-6 dropdown">
+                                        <button class="dropbtn border row flew-row-reverse">
+                                            <p class="active-date border-right">06/28/11-07/21/11</p>
+                                            <i class="fas fa-chevron-down"></i>
+                                        </button>
+                                        <div class="row">
+                                            <div class="col-md-10 dropdown-content">
+                                                <a href="#">07/22/11-08/24/11</a>
+                                                <a href="#">08/25/11-09/21/11</a>
+                                                <a href="#">09/22/11-10/23/11</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img class="graph1" src="./images/biggraph.png" alt="graph">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div>
+                                    <img class="graph2 border-left" src="./images/circlegraphs.png" alt="circle graphs">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="container border-bottom">
                         <p>Contacts/customers</p>
@@ -61,14 +191,15 @@
             <div class="container bg-primary ads">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3 bg-white container">
-                            <p>ad 1</p>
+                        <!-- give ads rounded edges -->
+                        <div class="col-md-4 watch-what">
+                            <div class="bg-white ad1"></div>
                         </div>
-                        <div class="col-md-3 bg-white container">
-                            <p>ad 2</p>
+                        <div class="col-md-4 see-what">
+                            <div class="bg-primary ad2"></div>
                         </div>
-                        <div class="col-md-3 bg-white container">
-                            <p>ad 3</p>
+                        <div class="col-md-4 version">
+                            <div class="bg-white ad3"></div>
                         </div>
                     </div>
                 </div>

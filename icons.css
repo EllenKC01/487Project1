@@ -1,78 +1,78 @@
 .sprite {
-  background-image: url(spritesheet.png);
+  background-image: url(./images/spritesheet.png);
   background-repeat: no-repeat;
   display: block;
-  margin: 9px;
+  margin-top: 10px;
 }
 
-.sprite-Blue-comment {
-  width: 88px;
-  height: 73px;
+.sprite-blue-comment {
+  width: 97px;
+  height: 111px;
   background-position: -5px -5px;
 }
 
-.sprite-Blue-dashboard {
+.sprite-blue-dashboard {
+  width: 80px;
+  height: 111px;
+  background-position: -112px -5px;
+}
+
+.sprite-blue-graph {
   width: 84px;
-  height: 73px;
-  background-position: -103px -5px;
+  height: 111px;
+  background-position: -202px -5px;
 }
 
-.sprite-Blue-graph {
-  width: 87px;
-  height: 73px;
-  background-position: -197px -5px;
+.sprite-blue-note {
+  width: 92px;
+  height: 111px;
+  background-position: -5px -126px;
 }
 
-.sprite-Blue-note {
+.sprite-blue-people {
   width: 89px;
-  height: 73px;
-  background-position: -5px -88px;
+  height: 111px;
+  background-position: -107px -126px;
 }
 
-.sprite-Blue-people {
-  width: 94px;
-  height: 73px;
-  background-position: -104px -88px;
-}
-
-.sprite-Blue-tag {
+.sprite-blue-tag {
   width: 87px;
-  height: 73px;
-  background-position: -208px -88px;
+  height: 111px;
+  background-position: -206px -126px;
 }
 
-.sprite-Green-comment {
-  width: 88px;
-  height: 73px;
-  background-position: -5px -171px;
+.sprite-green-comment {
+  width: 97px;
+  height: 111px;
+  background-position: -5px -247px;
 }
 
-.sprite-Green-dashboard {
+.sprite-green-dashboard {
+  width: 80px;
+  height: 111px;
+  background-position: -112px -247px;
+}
+
+.sprite-green-graph {
   width: 84px;
-  height: 73px;
-  background-position: -103px -171px;
+  height: 111px;
+  background-position: -202px -247px;
 }
 
-.sprite-Green-graph {
-  width: 87px;
-  height: 73px;
-  background-position: -197px -171px;
+.sprite-green-note {
+  width: 92px;
+  height: 111px;
+  background-position: -296px -5px;
 }
 
-.sprite-Green-note {
+.sprite-green-people {
   width: 89px;
-  height: 73px;
-  background-position: -294px -5px;
+  height: 111px;
+  background-position: -303px -126px;
 }
 
-.sprite-Green-people {
-  width: 94px;
-  height: 73px;
-  background-position: -305px -88px;
-}
-
-.sprite-Green-tag {
+.sprite-green-tag {
   width: 87px;
-  height: 73px;
-  background-position: -294px -171px;
+  height: 111px;
+  background-position: -296px -247px;
 }
