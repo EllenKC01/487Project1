@@ -7,25 +7,24 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./icons.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ewp6odz.css">
     <script src="https://kit.fontawesome.com/4a865f270a.js" crossorigin="anonymous"></script>
     <title>Project1</title>
 </head>
 
-<!-- make box corners rounded -->
-<!-- override colors and fonts -->
 <body>
-    <div class="container-fluid bg-primary header text-white">
+    <div class="container-fluid header text-white">
         <div class="row">
             <div class="col-md-6">
                 <div class="social">
-                    <p>Social Stream</p>
+                    <p>social stream</p>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="row flex-row-reverse help">
                     <i class="fas fa-cog"></i>
                     <!-- make dividing borders dark blue -->
-                    <i class="far fa-question-circle border-left border-right"></i>
+                    <i class="far fa-question-circle border-head"></i>
                     <p class="raleigh">MINI of Raleigh</p>
                 </div>
             </div>
@@ -58,7 +57,7 @@
         </div>
     </div>
     <!-- import Sass files for gradient/shadows (bg-gradient-secondary)-->
-    <div class="container bg-light data">
+    <div class="container data">
         <div class="contents">
             <div class="announcements container bg-white border">
                 <div class="row">
@@ -135,9 +134,45 @@
                             <div class="col-md-4"></div>
                         </div>
                     </div>
-                    <div class="container recommendations">
+                    <div class="container">
                         <div class="rec">
-                            <h3 class="text-primary">Recommendations</h3>
+                            <h3 class="text-primary border-bottom rec-head">Recommendations</h3>
+                            <div class="row border-dotted recommendation">
+                                <div class="col-md-2 icon">
+                                    <img src="./images/images/images/images/article.png" alt="article">
+                                </div>
+                                <div class="col-md-10 rec-title">
+                                    <p class="type">Article</p>
+                                    <p class="name">7 Steps to getting more Fans</p>
+                                </div>
+                            </div>
+                            <div class="row border-dotted recommendation">
+                                <div class="col-md-2 icon">
+                                    <img src="./images/images/images/images/article.png" alt="article">
+                                </div>
+                                <div class="col-md-10 rec-title">
+                                    <p class="type">Article</p>
+                                    <p class="name">Increase traction with more interactions</p>
+                                </div>
+                            </div>
+                            <div class="row border-dotted recommendation">
+                                <div class="col-md-2 icon">
+                                    <img src="./images/images/images/images/check.png" alt="checklist">
+                                </div>
+                                <div class="col-md-10 rec-title">
+                                    <p class="type">Checklist</p>
+                                    <p class="name">Creating a Promotion</p>
+                                </div>
+                            </div>
+                            <div class="row border-dotted recommendation">
+                                <div class="col-md-2 icon">
+                                    <img src="./images/images/images/images/lightbulb.png" alt="tip">
+                                </div>
+                                <div class="col-md-10 rec-title">
+                                    <p class="type">Tip</p>
+                                    <p class="name">Share more</p>
+                                </div>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-md-2">
@@ -180,11 +215,51 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container border-bottom">
-                        <p>Contacts/customers</p>
+                    <div class="container border-bottom con-cus">
+                        <div class="row">
+                            <div class="contacts col-md-6">
+                                <div class="head">
+                                    <img src="./images/images/images/images/contact-head.png" alt="contact head">
+                                </div>
+                                <div class="label text-white">
+                                    <p class="stat">75 CONTACTS</p>
+                                    <p class="influencers">4 INFLUENCERS</p>
+                                </div>
+                                <div class="bottom-div contact-graph">
+                                    <img src="./images/images/images/images/contact-graph.png" alt="contact graph">
+                                </div>
+                            </div>
+                            <div class="customers col-md-6">
+                                <div class="head">
+                                    <img src="./images/images/images/images/images/customer-head.png" alt="customer head">
+                                </div>
+                                <div class="label text-white">
+                                    <p class="stat">17 CUSTOMERS</p>
+                                    <p class="influencers">0 INFLUENCERS</p>
+                                </div>
+                                <div class="bottom-div cust-graph">
+                                    <img src="./images/images/images/images/images/customer-graph.png" alt="customer graph">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="container">
-                        <p>Did you know?</p>
+                    <div class="container did-you-know">
+                        <div class="bg-primary dyk">
+                            <div class="text-white">
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <a href="#"><img class="left-arrow" src="./images/images/images/images/dyk_arrow1.png" alt="left arrow"></a>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <p>DID YOU KNOW?</p>
+                                    <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</p>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <a href="#"><img class="right-arrow" src="./images/images/images/images/dyk-arrow2.png" alt="right arrow"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -207,8 +282,36 @@
         </div>
     </div>
 
-    <footer class="container-fluid bg-secondary">
-        <h3>Footer</h3>
+    <footer class="container-fluid bg-light box-shadow">
+        <div class="row">
+            <div class="col-md-3 column">
+                <div class="row tsb">
+                    <p class="tutorials">Tutorials</p>
+                    <p class="tutorials border-left border-right">Support</p>
+                    <p class="tutorials">Blog</p>
+                </div>
+            </div>
+            <div class="col-md-5 border-left border-right column">
+                <div class="row ariel">
+                    <p><a href="#">Ariel Winter</a> likes your <a href="#">Win a Cooper Sweepstakes</a> Promotion</p>
+                    <a href="#"><i class="fas fa-chevron-up"></i></a>
+                </div>
+            </div>
+            <div class="col-md-2 column">
+                <div class="row">
+                    <img class="profile" src="./images/images/images/images/profile.png" alt="profile">
+                    <a class="logout" href="#">Logout</a>
+                </div>
+            </div>
+            <div class="col-md-2 column border-left">
+                <div class="row">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-foursquare"></i>
+                    <i class="fab fa-youtube-square"></i>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
