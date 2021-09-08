@@ -23,7 +23,6 @@
             <div class="col-md-6">
                 <div class="row flex-row-reverse help">
                     <i class="fas fa-cog"></i>
-                    <!-- make dividing borders dark blue -->
                     <i class="far fa-question-circle border-head"></i>
                     <p class="raleigh">MINI of Raleigh</p>
                 </div>
@@ -31,16 +30,35 @@
         </div>
     </div>
     <div class="container-fluid bg-secondary navbar nav">
-        <div class="row mx-auto">
-            <!-- for hovers- css change class when rollover parent -->
-            <a class="sprite sprite-blue-dashboard" href="#"></a>
-            <a class="sprite sprite-blue-people" href="#"></a>
-            <a class="sprite sprite-blue-comment" href="#"></a>
-            <a class="sprite sprite-blue-tag" href="#"></a>
-            <a class="sprite sprite-blue-note" href="#"></a>
-            <a class="sprite sprite-blue-graph" href="#"></a>
+        <div class="mx-auto">
+            <div class="row">
+                <!-- for hovers- css change class when rollover parent -->
+                <div contenteditable class="dash no-cursor">
+                    <a class="sprite sprite-blue-dashboard" href="#"></a>
+                    <img class="marker marker1" src="./images/images/marker.png" alt="marker">
+                </div>
+                <div contenteditable class="people no-cursor">
+                    <a class="sprite sprite-blue-people" href="#"></a>
+                    <img class="marker marker2" src="./images/images/marker.png" alt="marker">
+                </div>
+                <div contenteditable class="comment no-cursor">
+                    <a class="sprite sprite-blue-comment" href="#"></a>
+                    <img class="marker marker3" src="./images/images/marker.png" alt="marker">
+                </div>
+                <div contenteditable class="tag no-cursor">
+                    <a class="sprite sprite-blue-tag" href="#"></a>
+                    <img class="marker marker4" src="./images/images/marker.png" alt="marker">
+                </div>
+                <div contenteditable class="note no-cursor">
+                    <a class="sprite sprite-blue-note" href="#"></a>
+                    <img class="marker marker5" src="./images/images/marker.png" alt="marker">
+                </div>
+                <div contenteditable class="gra no-cursor">
+                    <a class="sprite sprite-blue-graph" href="#"></a>
+                    <img class="marker marker6" src="./images/images/marker.png" alt="marker">
+                </div>
+            </div>
         </div>
-        <!-- <img class="img-fluid img-responsive nav-bg" src="./images/NavbarBackground.png" alt="background"> -->
     </div>
     <div class="container bg-success dashboard text-white">
         <div class="row">
@@ -51,12 +69,10 @@
                 <form action="#">
                     <input type="text">
                     <a href="#" class="fas fa-search"></a>
-                    <!-- <i class="fas fa-search"></i> -->
                 </form>
             </div>
         </div>
     </div>
-    <!-- import Sass files for gradient/shadows (bg-gradient-secondary)-->
     <div class="container data">
         <div class="contents">
             <div class="announcements container bg-white border">
@@ -95,7 +111,12 @@
                             <div class="col-md-6 title">
                                 <p>Welcome Contacts</p>
                             </div>
-                            <div class="col-md-4"></div>
+                            <div class="col-md-4 num">
+                                <div class="row border-num no-gutters">
+                                    <i class="fas fa-user"></i>
+                                    <p>32</p>
+                                </div>
+                            </div>
                         </div>
                         <hr>
                         <div class="row listing">
@@ -104,10 +125,15 @@
                                     <p>2</p>
                                 </div>
                             </div>
-                            <div class="col-md-7 title">
+                            <div class="col-md-6 title">
                                 <p>Provide Responses</p>
                             </div>
-                            <div class="col-md-4"></div>
+                            <div class="col-md-4 num">
+                                <div class="row border-num no-gutters">
+                                    <i class="fas fa-user"></i>
+                                    <p>36</p>
+                                </div>
+                            </div>
                         </div>
                         <hr>
                         <div class="row listing">
@@ -116,10 +142,15 @@
                                     <p>3</p>
                                 </div>
                             </div>
-                            <div class="col-md-7 title">
+                            <div class="col-md-6 title">
                                 <p>Review Activity</p>
                             </div>
-                            <div class="col-md-4"></div>
+                            <div class="col-md-4 num">
+                                <div class="row border-num no-gutters">
+                                    <i class="fas fa-user"></i>
+                                    <p>36</p>
+                                </div>
+                            </div>
                         </div>
                         <hr>
                         <div class="row listing">
@@ -128,10 +159,15 @@
                                     <p>4</p>
                                 </div>
                             </div>
-                            <div class="col-md-7 title">
+                            <div class="col-md-6 title">
                                 <p>Reach Out</p>
                             </div>
-                            <div class="col-md-4"></div>
+                            <div class="col-md-4 num">
+                                <div class="row border-num no-gutters">
+                                    <i class="fas fa-user"></i>
+                                    <p>3</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="container">
@@ -186,7 +222,7 @@
                         <h3 class="text-primary an-head">Analytics</h3>
                         <div class="row">
                             <div class="col-md-9">
-                                <div class="row">
+                                <div class="row act-drop">
                                     <div class="col-md-6">
                                         <p class="text-secondary activity">ACTIVITY</p>
                                     </div>
@@ -211,6 +247,24 @@
                             <div class="col-md-3">
                                 <div>
                                     <img class="graph2 border-left" src="./images/circlegraphs.png" alt="circle graphs">
+                                </div>
+                            </div>
+                            <div class="row check-social">
+                                <div class="row input">
+                                    <input type="checkbox">
+                                    <p class="fb">Facebook</p>
+                                </div>
+                                <div class="row input">
+                                    <input type="checkbox">
+                                    <p class="twi">Twitter</p>
+                                </div>
+                                <div class="row input">
+                                    <input type="checkbox">
+                                    <p class="fs">Foursquare</p>
+                                </div>
+                                <div class="row input">
+                                    <input type="checkbox">
+                                    <p class="goog">Google+</p>
                                 </div>
                             </div>
                         </div>
@@ -250,9 +304,9 @@
                                     <div class="col-md-1">
                                         <a href="#"><img class="left-arrow" src="./images/images/images/images/dyk_arrow1.png" alt="left arrow"></a>
                                     </div>
-                                    <div class="col-md-10">
+                                    <div class="col-md-10 facts">
                                         <p>DID YOU KNOW?</p>
-                                    <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</p>
+                                        <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</p>
                                     </div>
                                     <div class="col-md-1">
                                         <a href="#"><img class="right-arrow" src="./images/images/images/images/dyk-arrow2.png" alt="right arrow"></a>
@@ -266,7 +320,6 @@
             <div class="container bg-primary ads">
                 <div class="container">
                     <div class="row">
-                        <!-- give ads rounded edges -->
                         <div class="col-md-4 watch-what">
                             <div class="bg-white ad1"></div>
                         </div>

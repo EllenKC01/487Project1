@@ -3,6 +3,7 @@ body {
   font-family: myriad-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
+  cursor: none;
 }
 
 h1 {
@@ -47,6 +48,15 @@ a {
 
 footer {
   font-size: 0.75rem;
+  position: sticky;
+}
+
+input {
+  margin: auto;
+}
+
+[contenteditable] {
+  outline: 0px solid transparent;
 }
 
 .bg-primary {
@@ -114,11 +124,11 @@ footer {
 
 .navbar {
   padding: 0;
-  /* position: relative; */
 }
 
 .nav {
   padding: 0;
+  margin: 0;
   background-image: url(./images/NavBackground.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -126,7 +136,6 @@ footer {
 
 .nav-bg {
   margin: 0;
-  /* position: absolute; */
 }
 
 .dashboard {
@@ -158,28 +167,140 @@ footer {
   color: #cccccc;
 }
 
-.sprite-blue-dashboard:hover {
+.sprite {
+  padding-top: 30px;
+}
+
+.dash:hover .sprite-blue-dashboard {
   background-position: -112px -247px;
 }
 
-.sprite-blue-people:hover {
+.dash:focus .sprite-blue-dashboard {
+  background-position: -112px -247px;
+}
+
+.dash:hover .marker1 {
+  display: block;
+}
+
+.dash:focus .marker1 {
+  display: block;
+}
+
+.people:hover .sprite-blue-people {
   background-position: -303px -126px;
 }
 
-.sprite-blue-comment:hover {
+.people:focus .sprite-blue-people {
+  background-position: -303px -126px;
+}
+
+.people:hover .marker2 {
+  display: block;
+}
+
+.people:focus .marker2 {
+  display: block;
+}
+
+.comment:hover .sprite-blue-comment {
   background-position: -5px -247px;
 }
 
-.sprite-blue-tag:hover {
+.comment:focus .sprite-blue-comment {
+  background-position: -5px -247px;
+}
+
+.comment:hover .marker3 {
+  display: block;
+}
+
+.comment:focus .marker3 {
+  display: block;
+}
+
+.tag:hover .sprite-blue-tag {
   background-position: -296px -247px;
 }
 
-.sprite-blue-note:hover {
+.tag:focus .sprite-blue-tag {
+  background-position: -296px -247px;
+}
+
+.tag:hover .marker4 {
+  display: block;
+}
+
+.tag:focus .marker4 {
+  display: block;
+}
+
+.note:hover .sprite-blue-note {
   background-position: -296px -5px;
 }
 
-.sprite-blue-graph:hover {
+.note:focus .sprite-blue-note {
+  background-position: -296px -5px;
+}
+
+.note:hover .marker5 {
+  display: block;
+}
+
+.note:focus .marker5 {
+  display: block;
+}
+
+.gra:hover .sprite-blue-graph {
   background-position: -202px -247px;
+}
+
+.gra:focus .sprite-blue-graph {
+  background-position: -202px -247px;
+}
+
+.gra:hover .marker6 {
+  display: block;
+}
+
+.gra:focus .marker6 {
+  display: block;
+}
+
+.marker {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2vh;
+  padding-left: 2vw;
+  justify-content: center;
+}
+
+.marker1 {
+  display: none;
+}
+
+.marker2 {
+  display: none;
+}
+
+.marker3 {
+  display: none;
+}
+
+.marker4 {
+  display: none;
+}
+
+.marker5 {
+  display: none;
+}
+
+.marker6 {
+  display: none;
+}
+
+.no-cursor {
+  cursor: none;
 }
 
 .move {
@@ -278,6 +399,10 @@ footer {
   color: #cccccc;
 }
 
+.listing:hover .num {
+  color: #cccccc;
+}
+
 .title {
   margin: 0;
   padding-top: 5px;
@@ -285,6 +410,22 @@ footer {
   padding-bottom: 0;
   padding-right: 0;
   font-size: 1.2rem;
+  color: #2394ee;
+}
+
+.num {
+  color: #2394ee;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.border-num {
+  border-style: solid;
+  margin: 0;
+  padding: 0;
+  border-width: 1px;
+  box-sizing: border-box;
+  width: 5vw;
 }
 
 .rec {
@@ -404,9 +545,48 @@ footer {
   padding-left: 10px;
 }
 
-.con-cus {
-  padding-top: 10px;
-  padding-bottom: 20px;
+.check-social {
+  margin: auto;
+}
+
+.input {
+  padding: 2vw;
+}
+
+.fb {
+  color: white;
+  background-color: #114570;
+  border-radius: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-left: 3px;
+}
+
+.twi {
+  color: white;
+  background-color: #2298f4;
+  border-radius: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-left: 3px;
+}
+
+.fs {
+  color: white;
+  background-color: #3a599b;
+  border-radius: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-left: 3px;
+}
+
+.goog {
+  color: white;
+  background-color: #31cc66;
+  border-radius: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-left: 3px;
 }
 
 .contacts {
@@ -425,7 +605,7 @@ footer {
   text-align: center;
   background-image: url(./images/images/images/banner.png);
   background-size: cover;
-  height: 62px;
+  height: 8.5vh;
   width: auto;
   padding-top: 5px;
 }
@@ -608,4 +788,60 @@ footer {
 .column {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0;
+    margin: 0;
+  }
+  .social {
+    margin-left: 35vw;
+  }
+
+  .help {
+    margin-right: 25vw;
+  }
+
+  .listing {
+    padding-bottom: 2vh;
+    text-align: center;
+  }
+
+  .num {
+    margin: auto;
+  }
+
+  .border-num {
+    width: 20vw;
+    margin: auto;
+  }
+
+  .act-drop {
+    margin: auto;
+    text-align: center;
+  }
+
+  .graph1 {
+    width: 80vw;
+  }
+
+  .graph2 {
+    width: 40vw;
+  }
+
+  .check-social {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+
+  .input {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .facts {
+    margin: auto;
+    width: 70vw;
+  }
 }
