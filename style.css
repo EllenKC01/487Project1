@@ -544,6 +544,10 @@ input {
   padding-left: 10px;
 }
 
+.tooltip {
+  opacity: 100%;
+}
+
 .check-social {
   margin: auto;
 }

@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./icons.css">
     <link rel="stylesheet" href="https://use.typekit.net/ewp6odz.css">
     <script src="https://kit.fontawesome.com/4a865f270a.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.3/dist/jBox.all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
     <title>Project1</title>
 </head>
 
@@ -78,17 +81,21 @@
             <div class="announcements container bg-white border">
                 <div class="row">
                     <div class="col-md-2 border-right">
-                        <p class="announce-text">ANNOUNCEMENTS</p>
+                        <p class="announce-text text-center">ANNOUNCEMENTS</p>
                     </div>
-                    <div class="col-md-9 mid-text">
-                        <p>Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
+                    <div class="col-md-10 mid-text">
+                        <div class="slider">
+                            <div class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac fermentum ante, nec tristique tortor.</div>
+                            <div class="text-center">Sed vitae eros ante. Pellentesque consequat cursus libero nec laoreet. Aliquam erat volutpat.</div>
+                            <div class="text-center">Aenean cursus mattis porta. Mauris ut augue sit amet nisl elementum dictum ac et felis.</div>
+                        </div>
                     </div>
-                    <div class="col-md-1 border-left move">
+                    <!-- <div class="col-md-1 border-left move">
                         <div class="nav-arrows">
                             <i class="fas fa-chevron-circle-left"></i>
                             <i class="fas fa-chevron-circle-right"></i>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="row bg-white inside">
@@ -246,7 +253,7 @@
                             </div>
                             <div class="col-md-3">
                                 <div>
-                                    <img class="graph2 border-left" src="./images/circlegraphs.png" alt="circle graphs">
+                                    <span class="tooltip" title="Channels and Referrals data"><img class="graph2 border-left" src="./images/circlegraphs.png" alt="circle graphs"></span>
                                 </div>
                             </div>
                             <div class="row check-social">
@@ -366,8 +373,11 @@
             </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.3/dist/jBox.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="./main.js"></script>
 </body>
 </html>
