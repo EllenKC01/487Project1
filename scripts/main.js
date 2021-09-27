@@ -6,6 +6,6 @@ new jBox('Tooltip', {
     attach: '.tooltip'
 });
 
-$(document).ready(function(){
-    $('.slider').bxSlider();
+$("#example").eocjsNewsticker({
+    //options here
 });
